@@ -6,6 +6,8 @@ metadata:
 compatibility: "Requires an SE Ranking API key (set SERANKING_API_KEY by running extensions/seranking/install.sh)."
 ---
 
+> **Bống Media:** for Vietnamese sites or Vietnamese-speaking users, load `${CLAUDE_PLUGIN_ROOT}/skills/seo/references/vietnam-market.md` and write all output in Vietnamese.
+
 # seo-seranking
 
 Live AI visibility tracking via the SE Ranking REST API.

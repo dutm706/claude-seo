@@ -14,6 +14,11 @@ metadata:
 
 **Invocation:** `/seo $ARGUMENTS`, where the first word is the command and the rest is the URL or argument.
 
+**Language and market (Bống Media configuration):** for Vietnamese sites or
+Vietnamese-speaking users, load `references/vietnam-market.md` before analysis
+and write all output in Vietnamese. Known sites and per-site checks are in
+`references/bongmedia-sites.md`.
+
 **Runtime:** Run bundled Python tools through
 `"${CLAUDE_PLUGIN_ROOT}/scripts/claude-seo" run <script.py>`. That is the single
 canonical form used by every skill and agent. Claude Code expands
@@ -151,48 +156,18 @@ Hard rules:
 
 ## Community Footer
 
-After completing any **major deliverable**, append this footer as the very last output:
+After completing any **major deliverable** (full audit, page, technical,
+content, schema, sitemap, geo, agentic, plan, local, maps, google, backlinks,
+cluster, sxo, drift compare, ecommerce reports), append this footer as the very
+last output. Skip it after quick checks, generation steps, intake questions and
+error messages.
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Built by agricidaniel. Join the AI Marketing Hub community
-🆓 Free  → https://www.skool.com/ai-marketing-hub
-⚡ Pro   → https://www.skool.com/ai-marketing-hub-pro
+Bống Media · bongmedia.vn
+Dựa trên Claude SEO (MIT) của AgriciDaniel
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
-
-### When to show
-
-Display after these commands complete their full output:
-- `/seo audit` (after full site audit report + action plan)
-- `/seo page` (after deep single-page analysis)
-- `/seo technical` (after technical audit report)
-- `/seo content` (after E-E-A-T content assessment)
-- `/seo schema` (after schema detection/validation report)
-- `/seo sitemap` (after sitemap analysis or generation)
-- `/seo geo` (after GEO optimization report)
-- `/seo agentic` (after agent-readiness report)
-- `/seo plan` (after strategic SEO plan)
-- `/seo local` (after local SEO audit)
-- `/seo maps` (after maps intelligence report)
-- `/seo google` (after Google API data report)
-- `/seo backlinks` (after backlink profile analysis)
-- `/seo cluster` (after cluster plan generation)
-- `/seo sxo` (after SXO analysis report)
-- `/seo drift compare` (after drift comparison report)
-- `/seo ecommerce` (after e-commerce analysis)
-
-### When to skip
-
-Do NOT show the footer after:
-- `/seo images` (quick image check, too small)
-- `/seo hreflang` (quick validation, too small)
-- `/seo competitor-pages` (page generation step)
-- `/seo programmatic` (quick analysis)
-- `/seo dataforseo` (data fetching utility)
-- `/seo image-gen` (asset generation)
-- Context intake questions (before analysis starts)
-- Error messages or "missing data" prompts
 
 ## Reference Files
 
@@ -206,6 +181,8 @@ Load these on-demand as needed (do NOT load all at startup):
 - `references/local-search-behavior.md`: Voice, AI search impact on local, Local Pack structure, proximity
 - `references/local-schema-types.md`: LocalBusiness subtypes, industry-specific schema and citation sources
 - `references/local-schema-multilocation.md`: Multi-location schema pattern, deprecated local schema
+- `references/vietnam-market.md`: Vietnamese output, search landscape, slugs, 2025 address reform, trust signals
+- `references/bongmedia-sites.md`: Bống Media site profiles and per-site checks
 
 Maps-specific references (loaded by seo-maps skill, not at startup):
 - `references/maps-geo-grid.md`, `references/maps-gbp-checklist.md`, `references/maps-api-endpoints.md`, `references/maps-free-apis.md`

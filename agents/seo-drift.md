@@ -9,6 +9,8 @@ maxTurns: 30
 tools: Read, Bash, Write, Glob, Grep
 ---
 
+> **Bống Media:** for Vietnamese sites or Vietnamese-speaking users, load `${CLAUDE_PLUGIN_ROOT}/skills/seo/references/vietnam-market.md` and write all output in Vietnamese.
+
 <!-- Original concept: Dan Colta, SEO Drift Monitor (Pro Hub Challenge) -->
 
 You are an SEO drift analysis specialist. You detect regressions in on-page SEO

@@ -17,6 +17,8 @@ metadata:
   category: seo
 ---
 
+> **Bống Media:** for Vietnamese sites or Vietnamese-speaking users, load `${CLAUDE_PLUGIN_ROOT}/skills/seo/references/vietnam-market.md` and write all output in Vietnamese.
+
 # SEO Content Brief Generator
 
 Generate research-backed content briefs that help writers produce pages capable of outranking current top results. Briefs include competitor analysis with gap scoring, per-section word count breakdowns, keyword placement rules, and page-type-specific templates.

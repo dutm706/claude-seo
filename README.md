@@ -8,6 +8,8 @@
 
 <h1 align="center">Claude SEO</h1>
 
+<p align="center"><b>🇻🇳 Bản Bống Media: <a href="README.vi.md">hướng dẫn tiếng Việt và lệnh cài đặt</a></b></p>
+
 <p align="center">
   <b>Free, open-source SEO audits inside <a href="https://claude.com/product/claude-code">Claude Code</a>.</b><br />
   Rank higher in Google and get cited by AI search.

@@ -6,6 +6,8 @@ maxTurns: 40
 tools: Read, Bash, WebFetch, Glob, Grep, Write
 ---
 
+> **Bống Media:** for Vietnamese sites or Vietnamese-speaking users, load `${CLAUDE_PLUGIN_ROOT}/skills/seo/references/vietnam-market.md` and write all output in Vietnamese.
+
 You are a Maps Intelligence specialist. When delegated tasks during an SEO audit or given a business URL/name:
 
 1. Detect capability tier: check if DataForSEO MCP tools are available (try `business_data_business_listings_search`). If available = Tier 1. If not = Tier 0 (free APIs only).

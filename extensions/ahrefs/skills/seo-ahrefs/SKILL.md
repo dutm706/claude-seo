@@ -6,6 +6,8 @@ metadata:
 compatibility: "Tested with @ahrefs/mcp@0.0.11 (installed by extensions/ahrefs/install.sh)."
 ---
 
+> **Bống Media:** for Vietnamese sites or Vietnamese-speaking users, load `${CLAUDE_PLUGIN_ROOT}/skills/seo/references/vietnam-market.md` and write all output in Vietnamese.
+
 # seo-ahrefs
 
 Live Ahrefs data via the tested `@ahrefs/mcp@0.0.11` server.

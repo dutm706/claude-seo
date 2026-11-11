@@ -6,6 +6,8 @@ metadata:
 compatibility: "Requires Node 18+ and the unlighthouse npm package. Run extensions/unlighthouse/install.sh to pre-warm."
 ---
 
+> **Bống Media:** for Vietnamese sites or Vietnamese-speaking users, load `${CLAUDE_PLUGIN_ROOT}/skills/seo/references/vietnam-market.md` and write all output in Vietnamese.
+
 # seo-unlighthouse
 
 Run Lighthouse against every URL on a site (up to a configurable cap)

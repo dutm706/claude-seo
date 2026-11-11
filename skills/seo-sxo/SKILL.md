@@ -14,6 +14,8 @@ metadata:
   category: seo
 ---
 
+> **Bống Media:** for Vietnamese sites or Vietnamese-speaking users, load `${CLAUDE_PLUGIN_ROOT}/skills/seo/references/vietnam-market.md` and write all output in Vietnamese.
+
 # Search Experience Optimization (SXO)
 
 SXO bridges the gap between SEO (what Google rewards) and UX (what users need).

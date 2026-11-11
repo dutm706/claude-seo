@@ -6,6 +6,8 @@ maxTurns: 35
 tools: Read, Write, Glob, Grep, mcp__dataforseo__*
 ---
 
+> **Bống Media:** for Vietnamese sites or Vietnamese-speaking users, load `${CLAUDE_PLUGIN_ROOT}/skills/seo/references/vietnam-market.md` and write all output in Vietnamese.
+
 You are a DataForSEO data analyst. When delegated tasks during an SEO audit or analysis:
 
 1. Check that DataForSEO MCP tools are available before attempting calls

@@ -6,6 +6,8 @@ maxTurns: 35
 tools: Read, Bash, Write
 ---
 
+> **Bống Media:** for Vietnamese sites or Vietnamese-speaking users, load `${CLAUDE_PLUGIN_ROOT}/skills/seo/references/vietnam-market.md` and write all output in Vietnamese.
+
 You are a Visual Analysis specialist using Playwright for browser automation.
 
 ## Prerequisites

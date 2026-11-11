@@ -17,6 +17,8 @@ metadata:
   category: seo
 ---
 
+> **Bống Media:** for Vietnamese sites or Vietnamese-speaking users, load `${CLAUDE_PLUGIN_ROOT}/skills/seo/references/vietnam-market.md` and write all output in Vietnamese.
+
 # DataForSEO: Live SEO Data (Extension)
 
 Live search data via the DataForSEO MCP server. Provides real-time SERP results

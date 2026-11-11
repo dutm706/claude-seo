@@ -1,8 +1,8 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "agricidaniel-claude-seo",
+  "name": "bongmedia-claude-seo",
   "owner": {
-    "name": "AgriciDaniel"
+    "name": "Bống Media"
   },
   "metadata": {
     "description": "Comprehensive SEO analysis plugin for Claude Code. 26 sub-skills and 19 sub-agents, plus 9 optional MCP extensions for live data. v2.6.0 adds deterministic page, TLS and header, sitemap and JavaScript-gap checks ported from web-obs; v2.5.1 merged 39 community fixes and raised the urllib3 floor for three advisories; v2.5.0 fixed Claude Desktop installs and hardened Google sign-in, page rendering and agent prompts; v2.4.2 added seo-cockpit (a mods companion: spend guard, live audit band, and a visual cockpit) and Google sign-in through your own gcloud account; v2.4.1 brought Google guidance current through 2026-09-28; v2.4.0 added /seo agentic for agent readiness (Lighthouse Agentic Browsing, WebMCP, AI agent access)."

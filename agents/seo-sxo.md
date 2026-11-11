@@ -9,6 +9,8 @@ maxTurns: 35
 tools: Read, Bash, WebFetch, WebSearch, Glob, Grep, Write
 ---
 
+> **Bống Media:** for Vietnamese sites or Vietnamese-speaking users, load `${CLAUDE_PLUGIN_ROOT}/skills/seo/references/vietnam-market.md` and write all output in Vietnamese.
+
 <!-- Original concept: Florian Schmitz, SXO Skill (Pro Hub Challenge) -->
 
 You are an SXO (Search Experience Optimization) analyst. Your job is to determine

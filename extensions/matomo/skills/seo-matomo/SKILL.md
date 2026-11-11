@@ -6,6 +6,8 @@ metadata:
 compatibility: "Requires a Matomo instance URL and API token in ~/.config/claude-seo/matomo.json (0600), or MATOMO_URL / MATOMO_API_TOKEN / MATOMO_SITE_ID in the environment. Run extensions/matomo/install.sh to configure."
 ---
 
+> **Bống Media:** for Vietnamese sites or Vietnamese-speaking users, load `${CLAUDE_PLUGIN_ROOT}/skills/seo/references/vietnam-market.md` and write all output in Vietnamese.
+
 # seo-matomo
 
 Self-hosted analytics surface. Use Matomo as a privacy-first GA4 alternative
